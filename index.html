@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number Omar!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button class="btn_again" id="again">Again!</button>
+        <p class="info">(Between 1 and 20)</p>
+        <h1 class="baner ">Guss My Number!</h1>
+        <div class="qq"><span> ?</span></div>
+    </header>
+
+    <main>
+        <section class="left">
+            <input type="number" class="gussing" id="randomNum" min="1" max="20">
+            <button class="checked" id="checked">Checked!</button>
+        </section>
+
+        <section class="right">
+            <p class="message">Start guessing...</p>
+            <p class="label-score">💯 Score: <span class="score">20</span></p>
+            <p class="label-highscore">
+                🥇 Highscore: <span class="highscore">0</span>
+            </p>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
